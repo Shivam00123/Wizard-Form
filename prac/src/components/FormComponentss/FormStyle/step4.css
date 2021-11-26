@@ -1,0 +1,29 @@
+.detailDiv {
+  height: 380px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.detail {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 100px;
+}
+.key {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.Tag {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-right: 70%;
+  text-decoration: underline;
+}
+.Tag:hover {
+  cursor: pointer;
+  color: #1b4d89;
+}
+.btnDiv {
+  transform: translateY(-10px);
+}

@@ -1,0 +1,43 @@
+.StatusTopDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.status h4 {
+  margin-bottom: 10px;
+}
+.lineDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lineStart {
+  width: 70px;
+  border-bottom: 1px solid black;
+}
+.centerO {
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin: 0 5px;
+}
+.lineEnd {
+  border: 1px solid red;
+  width: 50%;
+}
+.first {
+  transform: translateX(-37px);
+}
+.last {
+  transform: translateX(37px);
+}

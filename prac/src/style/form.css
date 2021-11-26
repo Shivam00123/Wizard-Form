@@ -1,0 +1,11 @@
+.formDiv {
+  width: 750px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  background-color: #b2dfdb;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #6db784;
+  padding: 10px;
+  user-select: none;
+}

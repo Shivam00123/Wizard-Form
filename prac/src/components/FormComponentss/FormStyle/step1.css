@@ -1,0 +1,87 @@
+.stepOneContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+}
+.info {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.inputDiv {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+}
+.firstInp {
+  margin-top: 50px;
+}
+.inp {
+  margin-top: 20px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  padding-left: 10px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  /* margin-bottom: 40px; */
+}
+.inp :focus {
+  border: none;
+  user-select: all;
+}
+
+.error {
+  margin-top: 0;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: red;
+}
+.lastInp {
+  margin: 40px 10px;
+  margin-right: 0;
+}
+.inputLabel {
+  color: rgb(65, 64, 64);
+}
+.btn {
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  border: 1px solid black;
+  cursor: pointer;
+  position: absolute;
+  bottom: -50px;
+  right: 20px;
+}
+.btnWrap {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: 0;
+}
+.formContainer {
+  position: relative;
+}
+.btnstep2 {
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  border: 1px solid black;
+  cursor: pointer;
+  position: absolute;
+  bottom: -30px;
+}
+.step2button {
+  bottom: -30px;
+}
